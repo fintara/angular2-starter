@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
-import { CompletedFilterPipe, TodolistComponent } from './index';
+import { CompletedFilterPipe, TodolistComponent, TodoComponent } from './index';
 
 @NgModule({
     declarations: [
         CompletedFilterPipe,
-        TodolistComponent
+        TodolistComponent,
+        TodoComponent,
     ],
     imports: [
         FormsModule,
